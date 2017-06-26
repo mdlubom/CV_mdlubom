@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact_Details</title>
+
+    <!-- StyleSheet,javaScript and Jquery -->
+    <link type="text/css" rel="stylesheet" href="styles.css">
+    <script src="jquery.js"></script>
+
+</head>
+<body>
+
+<!--side push nav-->
+<div id="mySidenav" class="sidenav">
+    <a href="index.html">Home</a>
+    <a href="portfolio.html">Portifolio</a>
+    <a href="contact.html">Contact_me</a>
+</div>
+
+<!-- Use any element to open the sidenav -->
+<span onclick="openNav()"><h3>Open_menu</h3></span>
+
+<!-- Add all page content inside this div  -->
+<div id="main">
+
+    <div class="wrapper">
+
+        <div class="contactDetails">
+            <h1>Contact me at</h1>
+            <p><h4>Email adress:</h4> mdlubom@gmail.com</p>
+            <p><h4>Cellphone number:</h4> 0748164551</p>
+            <div id="left">
+                <h4>Physical address: </h4>
+            </div>
+            <div id="right">
+                <p><br> ff92 Lindela Street<br>Town Two Khayelitsha 7784</p>
+            </div>
+        </div>
+
+
+        <div class="headerAndFooter">
+
+            <footer>Mandisa Dlubom @ CodeSpace Academy</footer>
+
+        </div>
+
+
+    </div>
+
+</div>
+
+</body>
+</html>
+
+
+<script>
+    /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+    }
+
+    /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+    }
+
+</script>

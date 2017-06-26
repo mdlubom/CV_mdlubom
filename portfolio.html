@@ -1,0 +1,165 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+
+    <!-- StyleSheet,javaScript and Jquery -->
+    <link type="text/css" rel="stylesheet" href="styles.css">
+    <script src="jquery.js"></script>
+
+</head>
+<body>
+
+<!--side push nav-->
+<div id="mySidenav" class="sidenav">
+    <a href="index.html">Home</a>
+    <a href="portfolio.html">Portifolio</a>
+    <a href="contact.html">Contact_me</a>
+</div>
+
+<!-- Use any element to open the sidenav -->
+<span onclick="openNav()"><h3>Open_menu</h3></span>
+
+<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+<div id="main">
+
+<div class="wrapper">
+
+    <h1 class="languages_header">Programming Languages learnt</h1>
+
+    <div class="columns language_wrapper" >
+
+
+        <div class="columns image_and_explanation">
+            <!--The logo image and what i am capable of doing with the language-->
+            <img src="assets/html.png" class="images"> <!--HTML-->
+
+            <p class="briefIntros">
+                <br>
+                <br>
+
+                HTML(HyperText Markup Language) describes the structure of Web pages using markup.
+                With HTML I  know how to make the structure of a website.I can format page contents by using
+            paragraphs , lists (both unordered and ordered) , tables , headlines, forms etc. I can use images to make pages more visual interesting
+                , add links to lead users to another web page , etc.
+
+            </p>
+
+            <br>
+            <br>
+
+
+            <img src="assets/css.png" class="images"> <!--CSS-->
+
+            <p class="briefIntros">
+                <br>
+                <br>
+
+                CSS(Cascading Style Sheets) is a language that describes the styles of an HTML document. I use it to detail the presentation of  HTML the web page's markup language – such as colors, fonts, and layout.
+                I know how to use CSS to describe how HTML elements should be displayed to make web pages visually engaging.
+
+
+            </p>
+
+
+            <br>
+            <br>
+
+            <img src="assets/js.jpeg" class="images"> <!--Java Script-->
+
+            <p class="briefIntros">
+
+                <br>
+                <br>
+
+                JavaScript is the programming language of HTML and the Web. I can use JavaScript  to manipulate the web page elements and to make it dynamic.
+                I can use it to change HTML content, HTML styles, HTML attributes.
+
+            </p>
+
+
+            <br>
+            <br>
+
+            <img src="assets/jquery.png" class="images"> <!--Jquery-->
+
+            <p class="briefIntros">
+
+                <br>
+                <br>
+                jQuery is a JavaScript Library. It greatly simplifies JavaScript programming. I can create functions, use arrays and loops,etc. to make webpages
+                dynamic and more alive.
+
+            </p>
+
+
+            <br>
+            <br>
+
+            <img src="assets/mysql.png"> <!--sql-->
+
+            <p class="briefIntros">
+
+                <br>
+                <br>
+
+                SQL (Structured Query Language) is a standard language for storing, manipulating and retrieving data in databases.
+                With  SQL I am able to communicate and manipulate databases such as to insert,select,update,delete certain information from a database according to a certain functionality in the website.
+
+            </p>
+
+            <br>
+            <br>
+
+            <img src="assets/php.png" class="images"><!--PHP-->
+
+            <p class="briefIntros">
+
+                <br>
+                PHP(recursive acronym for PHP: Hypertext Preprocessor) is a server scripting language, and a powerful tool for making dynamic and interactive Web pages.
+                With it I can colect form data,generate web page content,manipulate the web page to be dynamic and appealing to the eye. I am able to use
+                conditions to validate data from user, methods ,arrays, loops and many more .
+
+            </p>
+
+        </div>
+
+    </div>
+
+    <br>
+    <br>
+
+    <div class="headerAndFooter">
+
+        <footer>Mandisa Dlubom @ CodeSpace Academy</footer>
+
+    </div>
+
+
+
+</div>
+
+</div>
+
+</body>
+</html>
+
+ <script>
+
+
+     /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+     function openNav() {
+         document.getElementById("mySidenav").style.width = "250px";
+         document.getElementById("main").style.marginLeft = "250px";
+     }
+
+     /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+     function closeNav() {
+         document.getElementById("mySidenav").style.width = "0";
+         document.getElementById("main").style.marginLeft = "0";
+     }
+
+
+
+ </script>
