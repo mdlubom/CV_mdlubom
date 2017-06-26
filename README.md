@@ -1,2 +1,4 @@
 # CV_mdlubom
-My CV
+Greetings
+
+This is Mandisa Dlubom's curriculum vitae 
