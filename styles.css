@@ -122,6 +122,7 @@ a:hover {
 .image {
     width: 25%;
     margin: 2px;
+    height: 25%;
 
 }
 
@@ -204,4 +205,45 @@ footer {
     clear: right;
     float: left;
     display: block;
+}
+/*Progress bar*/
+
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.skill_container {
+    width: 100%;
+    background-color: #ddd; /* Grey background */
+}
+
+.skills {
+    text-align: right;
+    padding-right: 20px;
+    line-height: 40px;
+    color: white;
+}
+
+.html {
+    width: 90%;
+    background-color: #f44336;
+}
+.css {
+    width: 75%;
+    background-color: #2196F3;
+}
+.jquery {
+    width: 60%;
+    background-color: deepskyblue;
+}
+.js {
+    width: 65%;
+    background-color: #ff2;
+}
+.sql {
+    width: 90%;
+    background-color: #808080;
+}
+.php {
+    width: 90%;
+    background-color: mediumpurple;
 }
