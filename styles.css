@@ -1,5 +1,60 @@
-/* The side navigation menu */
 
+/* Container */
+.wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+/*Web developer style*/
+.web{
+    color: gold;
+}
+/**/
+.head{
+    clear: both;
+    text-align: center;
+    float: left;
+
+}
+.contactHead{
+
+    float: right;
+
+}
+/*For frameworks list to be next to the programming languages learnt*/
+
+.Languages_and_frameworks{
+
+    width: 45%;
+    margin-right: 45px;
+    float: left;
+
+
+}
+
+.emailAddress{
+
+    float: right;
+    padding: 10px;
+
+}
+
+.headerAndContact{
+ height: 15%;
+ width: 100%;
+
+
+
+}
+
+/* The side navigation menu */
 .sidenav {
     height: 100%;
     width: 0;
@@ -54,18 +109,9 @@
     }
 }
 
-/* Container */
-.wrapper {
-    position: relative;
-    width: 100%;
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 0 20px;
-    box-sizing: border-box;
 
-}
 
-/*Header for portifolio */
+/*Header for portfolio */
 .languages_header {
 
     text-align: center;
@@ -80,6 +126,7 @@
     width: 100%;
     float: left;
     box-sizing: border-box;
+
 }
 
 /* links */
@@ -133,6 +180,9 @@ a:hover {
 }
 
 .briefIntro {
+
+    clear: both;
+
     width: 66%;
     float: right;
     text-align: justify;
@@ -140,6 +190,7 @@ a:hover {
 }
 
 .briefIntros {
+    clear: both;
     width: 66%;
     float: right;
     text-align: justify;
@@ -168,22 +219,19 @@ a:hover {
 footer {
     clear: both;
     text-align: center;
-    color: darkslateblue;
+    color: gold;
     font-size: large;
 }
 
-/*Physical adress paragraphs*/
 
-#left {
-    float: left;
-    margin: 2px;
-}
 
 /*Portfolio*/
 
 .language_wrapper {
 
-    width: 100%
+    clear: both;
+    width: 100%;
+    float: left;
 
 }
 
@@ -208,7 +256,9 @@ footer {
 }
 /*Progress bar*/
 
-* {box-sizing:border-box}
+* {
+    box-sizing:border-box
+}
 
 /* Container for skill bars */
 .skill_container {
@@ -228,7 +278,7 @@ footer {
     background-color: #f44336;
 }
 .css {
-    width: 75%;
+    width: 80%;
     background-color: #2196F3;
 }
 .jquery {
@@ -236,14 +286,23 @@ footer {
     background-color: deepskyblue;
 }
 .js {
-    width: 65%;
+    width: 70%;
     background-color: #ff2;
 }
 .sql {
-    width: 90%;
+    width: 60%;
     background-color: #808080;
 }
 .php {
-    width: 90%;
+    width: 70%;
     background-color: mediumpurple;
+}
+
+/* contact details*/
+
+.contactDetails{
+    clear: both;
+
+    float: right;
+
 }
