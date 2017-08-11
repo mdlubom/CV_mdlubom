@@ -37,6 +37,7 @@
     float: left;
 
 
+
 }
 
 .emailAddress{
@@ -115,7 +116,7 @@
 .languages_header {
 
     text-align: center;
-    color: darkslateblue;;
+    color: darkslateblue;
 
 }
 
@@ -302,7 +303,6 @@ footer {
 
 .contactDetails{
     clear: both;
-
     float: right;
 
 }
